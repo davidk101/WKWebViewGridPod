@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0809E7DAA9A48C73C2EF29DAD7891FAA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA827B6D6160675A1CC615F893738F /* ReplaceMe.swift */; };
 		5024441415797F7219D7D0C3772EDB75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		6C4ACBCDE6D5787E4A45CA4D00521FD1 /* Pods-WKWebViewGrid_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F353A4DACDAAC7C54EB01FBEA494021 /* Pods-WKWebViewGrid_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F9F93FF4B5E1A1FFA4EAA3FE9E93432 /* WKWebViewGrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692D3B22E9294AF8DFE30951DB96D0A /* WKWebViewGrid-dummy.m */; };
 		8B588CA62EF3031B279319B1F6147EB2 /* Pods-WKWebViewGrid_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63FA489B4540C86E4908658DA9B9BF06 /* Pods-WKWebViewGrid_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DFDCFA80D607DAE5277B1434D7BE9B /* WKWebViewGrid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 659D24158DFA36A628ACAA827DD4C288 /* WKWebViewGrid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B314BF26ACCE510083548D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B314B626ACCE500083548D /* Assets.xcassets */; };
+		98B314C026ACCE510083548D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B314B726ACCE500083548D /* ViewController.swift */; };
+		98B314C126ACCE510083548D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B314B826ACCE510083548D /* AppDelegate.swift */; };
+		98B314C226ACCE510083548D /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B314B926ACCE510083548D /* WindowController.swift */; };
+		98B314C326ACCE510083548D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B314BB26ACCE510083548D /* Main.storyboard */; };
 		A2EA2E15FD8D71D56B924F1CEBBF74FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		B957A1E128DE84EBE4B88E02649A9288 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		BD893679744176A5F9FA870B5E0E150D /* Pods-WKWebViewGrid_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BF1CCF45123E65CABE83E601C34D01 /* Pods-WKWebViewGrid_Example-dummy.m */; };
@@ -41,10 +45,10 @@
 		210718001EAAD0BB598873CA75BAFB7C /* Pods-WKWebViewGrid_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKWebViewGrid_Tests.modulemap"; sourceTree = "<group>"; };
 		2E30C6AB71B6D2E23A5C4B3031818BAF /* Pods-WKWebViewGrid_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKWebViewGrid_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F353A4DACDAAC7C54EB01FBEA494021 /* Pods-WKWebViewGrid_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKWebViewGrid_Example-umbrella.h"; sourceTree = "<group>"; };
-		3ED61D901CA0F2086FD3838CCD644294 /* Pods_WKWebViewGrid_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKWebViewGrid_Example.framework; path = "Pods-WKWebViewGrid_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED61D901CA0F2086FD3838CCD644294 /* Pods_WKWebViewGrid_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewGrid_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF7F1339BB9F749BF6F2CDF0218E15B /* WKWebViewGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKWebViewGrid.debug.xcconfig; sourceTree = "<group>"; };
 		40C32E46E85313565572691ED2C553C5 /* Pods-WKWebViewGrid_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKWebViewGrid_Example.modulemap"; sourceTree = "<group>"; };
-		50614849D54CB91ECBDCA05EF03D39FA /* Pods_WKWebViewGrid_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKWebViewGrid_Tests.framework; path = "Pods-WKWebViewGrid_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50614849D54CB91ECBDCA05EF03D39FA /* Pods_WKWebViewGrid_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewGrid_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F35B3497E48C2E19AF2F7A4F612512D /* WKWebViewGrid-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebViewGrid-prefix.pch"; sourceTree = "<group>"; };
 		5F85ACD12E8C0AD0F2F1BFCAFE5A1666 /* Pods-WKWebViewGrid_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKWebViewGrid_Example-frameworks.sh"; sourceTree = "<group>"; };
 		63FA489B4540C86E4908658DA9B9BF06 /* Pods-WKWebViewGrid_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKWebViewGrid_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -52,19 +56,25 @@
 		6692D3B22E9294AF8DFE30951DB96D0A /* WKWebViewGrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKWebViewGrid-dummy.m"; sourceTree = "<group>"; };
 		6D21B55597A8494E3CFE99193177B8DB /* Pods-WKWebViewGrid_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewGrid_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6E9BFA4F75F872BCCADEEB2E8F9C5C1E /* Pods-WKWebViewGrid_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKWebViewGrid_Tests-dummy.m"; sourceTree = "<group>"; };
-		74A78C2EF342004661ED8E170A19A972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74A78C2EF342004661ED8E170A19A972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7BC87619A3DB21096835C933E853417C /* Pods-WKWebViewGrid_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewGrid_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7E90A5FFB7FA91260FCBC0E9CD944CA8 /* Pods-WKWebViewGrid_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewGrid_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		94DA827B6D6160675A1CC615F893738F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WKWebViewGrid/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B314B626ACCE500083548D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B314B726ACCE500083548D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98B314B826ACCE510083548D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98B314B926ACCE510083548D /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		98B314BC26ACCE510083548D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		98B314BD26ACCE510083548D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B314BE26ACCE510083548D /* wkwebviewgrid.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = wkwebviewgrid.entitlements; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A36A106048D625498DFC0F823775DCD9 /* Pods-WKWebViewGrid_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewGrid_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA04D0355DBF22D992644F12B7DF239D /* Pods-WKWebViewGrid_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewGrid_Example-Info.plist"; sourceTree = "<group>"; };
 		BEAAF4D23981327100047B217D98E2C7 /* WKWebViewGrid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKWebViewGrid-Info.plist"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		C1A72C58DF87F2B2BB18F7BCB4F2A596 /* Pods-WKWebViewGrid_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewGrid_Tests-Info.plist"; sourceTree = "<group>"; };
-		C8E13726DC091022E0C8379F378C3EF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D42CB31016CAB01204016F1F32C98C17 /* WKWebViewGrid.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKWebViewGrid.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D4BCEFBAE1F2DB2DB793D9143E3B6E51 /* WKWebViewGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKWebViewGrid.framework; path = WKWebViewGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E13726DC091022E0C8379F378C3EF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D42CB31016CAB01204016F1F32C98C17 /* WKWebViewGrid.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WKWebViewGrid.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4BCEFBAE1F2DB2DB793D9143E3B6E51 /* WKWebViewGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WKWebViewGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47F9A1365E9C305E2558C4B1439A788 /* Pods-WKWebViewGrid_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewGrid_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDFCB1CBE7D734A8BD04D1ACF6665EE3 /* WKWebViewGrid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKWebViewGrid.modulemap; sourceTree = "<group>"; };
 		F095A1860053034A606A4B5216F53AC8 /* WKWebViewGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKWebViewGrid.release.xcconfig; sourceTree = "<group>"; };
@@ -170,6 +180,28 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		98B314B526ACCE090083548D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				98B314B826ACCE510083548D /* AppDelegate.swift */,
+				98B314B626ACCE500083548D /* Assets.xcassets */,
+				98B314BA26ACCE510083548D /* Base.lproj */,
+				98B314BD26ACCE510083548D /* Info.plist */,
+				98B314B726ACCE500083548D /* ViewController.swift */,
+				98B314B926ACCE510083548D /* WindowController.swift */,
+				98B314BE26ACCE510083548D /* wkwebviewgrid.entitlements */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		98B314BA26ACCE510083548D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				98B314BB26ACCE510083548D /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		C02C0DC9E3391F42946C6BE5DB36A729 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +231,7 @@
 		D9704444F07B776F113C2562CC914EDE /* WKWebViewGrid */ = {
 			isa = PBXGroup;
 			children = (
-				94DA827B6D6160675A1CC615F893738F /* ReplaceMe.swift */,
+				98B314B526ACCE090083548D /* Source */,
 				0E67F79440AF45A9D402CAD7D604352F /* Pod */,
 				C02C0DC9E3391F42946C6BE5DB36A729 /* Support Files */,
 			);
@@ -317,6 +349,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					31B1C4D56E28D36619EC4C4373DF027D = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -357,6 +394,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B314BF26ACCE510083548D /* Assets.xcassets in Resources */,
+				98B314C326ACCE510083548D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B314C126ACCE510083548D /* AppDelegate.swift in Sources */,
+				98B314C226ACCE510083548D /* WindowController.swift in Sources */,
+				98B314C026ACCE510083548D /* ViewController.swift in Sources */,
 				BD893679744176A5F9FA870B5E0E150D /* Pods-WKWebViewGrid_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0809E7DAA9A48C73C2EF29DAD7891FAA /* ReplaceMe.swift in Sources */,
 				7F9F93FF4B5E1A1FFA4EAA3FE9E93432 /* WKWebViewGrid-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +446,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		98B314BB26ACCE510083548D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B314BC26ACCE510083548D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		2C9083295B3F302F594C5D948C02D16B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -412,6 +464,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -435,6 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -693,8 +747,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -706,6 +759,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -729,6 +783,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
