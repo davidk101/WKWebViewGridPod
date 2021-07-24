@@ -1,0 +1,22 @@
+{
+  "name": "WKWebViewGrid",
+  "version": "0.1.0",
+  "summary": "A short description of WKWebViewGrid.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/davidk101/WKWebViewGrid",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "davidk101": "david.dn.kumar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/davidk101/WKWebViewGrid.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "WKWebViewGrid/Classes/**/*"
+}

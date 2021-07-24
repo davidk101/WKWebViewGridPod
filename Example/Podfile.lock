@@ -1,0 +1,16 @@
+PODS:
+  - WKWebViewGrid (0.1.0)
+
+DEPENDENCIES:
+  - WKWebViewGrid (from `../`)
+
+EXTERNAL SOURCES:
+  WKWebViewGrid:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKWebViewGrid: 7fb3212aeef4824613d150e191ae7bd3f76289cc
+
+PODFILE CHECKSUM: bfdf7766d85b3b344d11be0521b70c310da6e6ea
+
+COCOAPODS: 1.10.1
