@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKWebViewGrid_Example' do
+  pod 'WKWebViewGrid', :path => '../'
+
+  target 'WKWebViewGrid_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
