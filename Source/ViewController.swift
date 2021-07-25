@@ -223,8 +223,8 @@ class ViewController: NSViewController, WKNavigationDelegate, NSGestureRecognize
         case NSTouchBarItem.Identifier.navigation:
             
             // backward and forward images
-            let back = NSImage(named: NSImage.touchBarGoBackTemplateName)!
-            let forward = NSImage(named: NSImage.touchBarGoForwardTemplateName)!
+            let back = NSImage(named: NSImage.Name("touchBarGoBackTemplate"))!
+            let forward = NSImage(named: NSImage.Name("touchBarGoForwardTemplate"))!
             
             // create segmented control
             let segmentedControl = NSSegmentedControl(images: [back, forward], trackingMode: .momentary, target: self, action: #selector(navigationClicked))
