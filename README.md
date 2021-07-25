@@ -1,9 +1,9 @@
 # WKWebViewGrid
 
-[![CI Status](https://img.shields.io/travis/davidk101/WKWebViewGrid.svg?style=flat)](https://travis-ci.org/davidk101/WKWebViewGrid)
-[![Version](https://img.shields.io/cocoapods/v/WKWebViewGrid.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
-[![License](https://img.shields.io/cocoapods/l/WKWebViewGrid.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
-[![Platform](https://img.shields.io/cocoapods/p/WKWebViewGrid.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
+[![CI Status](https://img.shields.io/travis/davidk101/WKWebViewGridPod.svg?style=flat)](https://travis-ci.org/davidk101/WKWebViewGrid)
+[![Version](https://img.shields.io/cocoapods/v/WKWebViewGridPod.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
+[![License](https://img.shields.io/cocoapods/l/WKWebViewGridPod.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
+[![Platform](https://img.shields.io/cocoapods/p/WKWebViewGridPod.svg?style=flat)](https://cocoapods.org/pods/WKWebViewGrid)
 
 ## Example
 
